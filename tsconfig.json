@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* File Layout */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Module Handling (The Critical Fixes) */
+    "target": "ES2020",
+    "module": "commonjs",             /* Changed from nodenext to commonjs */
+    "moduleResolution": "node",       /* Changed to standard node resolution */
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": false,    /* Disabled to allow standard imports */
+    "isolatedModules": true,
+
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

@@ -14,7 +14,7 @@ This tool identifies which Playwright tests are impacted by a specific commit. I
 ---
 
 ## 🎥 Demo Video
-[![Watch the Demo](https://youtu.be/mDkVW0VFCT8)]
+[![Watch the Demo](https://img.youtube.com/vi/mDkVW0VFCT8/maxresdefault.jpg)](https://youtu.be/mDkVW0VFCT8)
 *Click the image above to watch the walkthrough on YouTube.*
 
 ---

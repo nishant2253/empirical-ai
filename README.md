@@ -6,7 +6,7 @@ This tool identifies which Playwright tests are impacted by a specific commit. I
 
 ## 🛠️ Tech Stack
 - **Language**: [TypeScript](https://www.typescriptlang.org/) (Node.js)
-- **AI Model**: [Google Gemini 2.5 Flash](https://ai.google.dev/gemini-api/docs/models/gemini)
+- **AI Model**: [Google Gemini 2.5 Flash](https://ai.google.dev/gemini-api/docs/models/gemini) (Free Tier)
 - **Git Integration**: [Simple-Git](https://github.com/steveukx/git-js)
 - **CLI Framework**: [Commander.js](https://github.com/tj/commander.js/)
 - **Utility**: [Dotenv](https://github.com/motdotla/dotenv) for secret management.
@@ -24,7 +24,7 @@ This tool identifies which Playwright tests are impacted by a specific commit. I
 ### Prerequisites
 - Node.js (v18+)
 - A local clone of the [flash-tests](https://github.com/empirical-run/flash-tests) repository.
-- A Google Gemini API Key.
+- A Google Gemini API Key (Free Tier is sufficient).
 
 ### Installation
 1. Clone this repository:
